@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family:poppins ;
+    src: url(./Poppins/Poppins-Medium.ttf);
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: poppins;
+    background-color: white;
+    min-width: 400px;
+
+}.form{
+    background-color: #ececec !important;
+    width: 500px;
+    border-radius: 5px;
+    height: 650px;
+    padding: 20px;
+
+
+}
+h1{
+    color: #121A55 !important;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+
+}
+.calBtn{
+    width: 200px;
+    height: 50px;
+    background-color: #121A55;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.calBtn:hover{
+   
+    background-color: #1c2777;
+   
+}
+.swal2-popup {
+    font-size: 13px;
+    color: black;
+    font-family: poppins;
+    font-weight: 100 !important;
+  }
+  .swal2-title {
+    font-weight: lighter;
+  }
+input{
+    width: 100%;
+    height: 45px;
+    border: 0;
+    margin-bottom: 3px;
+    border-bottom: #6f7394 solid  2px;
+}
+input:focus{
+    outline: 0;
+    border-bottom: #363a5b solid  3px;
+
+}
+input::placeholder{
+    color: #cfcfcf;
+    padding: 50px 5px ;
+    font-weight: 100;
+}
+
+.white-box{
+    background-color: rgb(255, 255, 255) !important;
+    padding: 20px;
+    height: 100%;
+    border-radius: 5px;
+}
+.swal2-shown{
+    font-weight: 100;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
